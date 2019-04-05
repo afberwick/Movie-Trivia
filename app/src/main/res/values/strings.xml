@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">commercials</string>
+    <string name="submit">SUBMIT</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="sean_connery_wears_a_toupee_in_all_the_bond_movies_that_he_starred_in">Sean Connery wears a toupee in all the Bond movies that he starred in?</string>
+
+    <string name="peter_brown">Peter Brown</string>
+    <string name="ian_gold">Ian Gold</string>
+    <string name="ian_fleming">Ian Fleming</string>
+    <string name="the_james_bond_movies_are_based_on_a_series_of_novels_by_what_british_author">The James Bond movies are based on a series of novels by what British author?</string>
+    <string name="great_movie_trivia">GREAT MOVIE TRIVIA</string>
+    <string name="score">SCORE</string>
+    <string name="email_address">Email address</string>
+    <string name="on_her_majesty_s_secret_service_is_the_first_bond_film_where_007_uses_skis">On Her Majesty’s Secret Service is the first Bond film where 007 uses skis.</string>
+    <string name="bond_does_not_visit_england_at_all_in_you_only_live_twice">Bond does not visit England at all in You Only Live Twice.</string>
+    <string name="peter_finch">Peter Finch</string>
+    <string name="logo">logo</string>
+</resources>

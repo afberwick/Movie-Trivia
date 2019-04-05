@@ -1,0 +1,175 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7E57C2"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#FFFFFF" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/rgb"
+            android:contentDescription="@string/logo"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/great_movie_trivia"
+            android:textColor="#000000"
+            android:textSize="42sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/the_james_bond_movies_are_based_on_a_series_of_novels_by_what_british_author"
+            android:textSize="15sp" />
+
+        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radio_Fleming"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ian_fleming" />
+
+            <RadioButton
+                android:id="@+id/gold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ian_gold" />
+
+            <RadioButton
+                android:id="@+id/finch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/peter_finch" />
+
+            <RadioButton
+                android:id="@+id/brown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/peter_brown" />
+
+        </RadioGroup>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerCrop"
+            android:contentDescription="actors"
+            android:src="@drawable/james" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#7E57C2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:scaleType="fitCenter"
+            android:text="@string/sean_connery_wears_a_toupee_in_all_the_bond_movies_that_he_starred_in"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#7E57C2" />
+
+        <CheckBox
+            android:id="@+id/toupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/yes" />
+
+        <CheckBox
+            android:id="@+id/notoupee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#7E57C2" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:scaleType="fitCenter"
+            android:text="@string/on_her_majesty_s_secret_service_is_the_first_bond_film_where_007_uses_skis"
+            android:textSize="15sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="#7E57C2" />
+
+        <CheckBox
+            android:id="@+id/skis"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/yes" />
+
+<CheckBox
+android:id="@+id/noskis"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/no" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="25dp"
+android:background="#7E57C2" />
+
+<TextView
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:layout_weight="0"
+android:text="@string/bond_does_not_visit_england_at_all_in_you_only_live_twice"
+android:textSize="15sp" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="25dp"
+android:background="#7E57C2" />
+
+<CheckBox
+android:id="@+id/eng"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/yes" />
+
+<CheckBox
+android:id="@+id/noeng"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="@string/no" />
+
+<View
+android:layout_width="match_parent"
+android:layout_height="25dp"
+android:background="#7E57C2" />
+
+    </LinearLayout>
+
+
+    </ScrollView>
+
